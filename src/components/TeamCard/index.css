@@ -1,1 +1,30 @@
 /* Write your CSS here */
+.teamCardBg {
+  background-color: #ffffff33;
+  border: solid 1px #ffffff;
+  border-radius: 10px;
+  width: 120px;
+}
+.cardImg {
+  width: 28px;
+}
+.cardHeading {
+  font-size: 12px;
+  font-family: 'Bree serif';
+  color: #ffffff;
+  text-align: center;
+}
+@media (min-width: 769px) {
+  .teamCardBg {
+    border: solid 1.5px #ffffff;
+    border-radius: 15px;
+    width: 400px;
+  }
+  .cardImg {
+    width: 60px;
+  }
+  .cardHeading {
+    font-size: 30px;
+    margin: 10px;
+  }
+}

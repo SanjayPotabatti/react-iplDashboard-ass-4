@@ -1,1 +1,48 @@
 /* Write your CSS here */
+.latestMatchCardContainer {
+  background-color: #0f172a;
+  border-radius: 8px;
+  padding: 10px;
+}
+.mainHeadingM {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: 'Bree serif';
+}
+.hrStyle {
+  border: 1px solid #ffffff;
+}
+.teamLogo {
+  width: 50px;
+}
+.para1 {
+  font-family: 'Bree serif';
+  color: #ffffff;
+  font-size: 15px;
+}
+.para2 {
+  font-family: 'Bree serif';
+  color: #ffffff;
+  font-size: 10px;
+}
+@media (min-width: 769px) {
+  .latestMatchCardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .teamLogo {
+    width: 200px;
+    margin: 20px;
+  }
+  .mainHeadingM {
+    font-size: 35px;
+  }
+  .para1 {
+    font-size: 25px;
+  }
+  .para2 {
+    font-size: 20px;
+  }
+}

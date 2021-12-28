@@ -1,1 +1,45 @@
 /* Write your CSS here */
+.bgContainerTeamMatchesRCB {
+  background-image: linear-gradient(#a4261d, #1e293b);
+  background-size: cover;
+  height: 100%;
+}
+.bgContainerTeamMatchesKKR {
+  background-image: linear-gradient(#1e293b, #1e293b);
+  background-size: cover;
+  height: 100%;
+}
+.bgContainerTeamMatchesKXP {
+  background-image: linear-gradient(#d91c1f, #1e293b);
+  background-size: cover;
+  height: 100%;
+}
+.bgContainerTeamMatchesCSK {
+  background-image: linear-gradient(#f7db00, #1e293b);
+  background-size: cover;
+  height: 100%;
+}
+.bgContainerTeamMatchesRR {
+  background-image: linear-gradient(#13418b, #1e293b);
+  background-size: cover;
+  height: 100%;
+}
+.bgContainerTeamMatchesMI {
+  background-image: linear-gradient(#13418b, #1e293b);
+  background-size: cover;
+  height: 100%;
+}
+.bgContainerTeamMatchesSH {
+  background-image: linear-gradient(#f26d22, #1e293b);
+  background-size: cover;
+  height: 100%;
+}
+.bgContainerTeamMatchesDC {
+  background-image: linear-gradient(#4f5db0, #1e293b);
+  background-size: cover;
+  height: 100%;
+}
+
+.bannerImg {
+  width: 95vw;
+}

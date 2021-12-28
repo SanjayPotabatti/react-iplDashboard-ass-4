@@ -1,1 +1,30 @@
 /* Write your CSS here */
+.homeBg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  background-size: cover;
+  height: 100vh;
+}
+.mainHeading {
+  color: #ffffff;
+  font-family: 'Bree serif';
+  font-size: 30px;
+  font-weight: bolder;
+}
+.logoImg {
+  width: 25px;
+}
+@media (min-width: 769px) {
+  .homeBg {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+    height: 100%;
+  }
+  .mainHeading {
+    font-size: 50px;
+  }
+  .logoImg {
+    width: 40px;
+  }
+}
+.unorderedList {
+  width: 90vw;
+}
